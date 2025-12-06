@@ -32,41 +32,26 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Complaint Submitted</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <style>
     body {
         background-color: #f5f5f5;
-        min-height: 100vh;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     .success-container {
         max-width: 650px;
         margin: 40px auto;
-        animation: fadeIn 0.6s ease-in;
-    }
-    @keyframes fadeIn {
-        from { opacity: 0; transform: translateY(20px); }
-        to { opacity: 1; transform: translateY(0); }
     }
     .card {
         border-radius: 15px;
         border: none;
-        overflow: hidden;
         background: white;
     }
     .card-header {
-        background-color: #3b4640ff;
+        background-color: #064369ff;
         padding: 30px;
-        border: none;
-    }
-    .success-icon {
-        font-size: 3rem;
-        margin-bottom: 15px;
-        animation: scaleIn 0.5s ease-out;
-    }
-    @keyframes scaleIn {
-        from { transform: scale(0); }
-        to { transform: scale(1); }
+        border: solid 1px #064369ff;
+        color: #CCE5FB;
+        font-size: 1.5em;
     }
     .card-body {
         padding: 40px;
@@ -81,37 +66,30 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
     }
     .info-item label {
         font-weight: 600;
-        color: #718096;
         margin-bottom: 5px;
         font-size: 0.9rem;
+        color: #718096;
     }
     .info-item .value {
         color: #2d3748;
         font-size: 1rem;
     }
     .btn-back {
-        background-color: #2d3748;
-        border: none;
+        border: solid 2px #054077ff;
+        color: #CCE5FB;
+        background-color: #064369ff;
         padding: 14px 30px;
         font-weight: 600;
         font-size: 1.1rem;
         border-radius: 8px;
-        transition: all 0.3s ease;
-        text-decoration: none;
-        display: inline-block;
-    }
-    .btn-back:hover {
-        background-color: #1a202c;
-        transform: translateY(-2px);
     }
 </style>
 </head>
 <body>
 <div class="success-container">
     <div class="card shadow-lg">
-        <div class="card-header text-white text-center">
-            <h3>Complaint Submitted Successfully!</h3>
-            
+        <div class="card-header text-center">
+            <h3>Complaint/Feedback Submitted Successfully!</h3>
         </div>
         <div class="card-body">
             <div class="info-item">
@@ -150,8 +128,8 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
             </div>
 
             <div class="text-center mt-4">
-                <a href="form.php" class="btn btn-back text-white w-100">
-                    Submit Another Complaint
+                <a href="form.php" class="btn btn-back w-100">
+                    Submit Another Complaint/Feedback
                 </a>
             </div>
         </div>
