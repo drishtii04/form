@@ -30,7 +30,7 @@
         padding: 40px;
     }
     .form-label {
-        font-weight: 600;
+        font-weight: 610;
         margin-bottom: 8px;
         color: #2d3748;
     }
