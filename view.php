@@ -132,6 +132,9 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
                     Submit Another Complaint/Feedback
                 </a>
             </div>
+            <div class="mt-3 text-center">
+                <a href="viewall.php" style="color: #064369ff; font-weight: 600;">View All Complaints</a>
+            </div>
         </div>
     </div>
 </div>

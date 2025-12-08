@@ -157,7 +157,7 @@
 
                 <div class="d-flex gap-2">
                     <button type="submit" class="btn btn-submit flex-fill">
-                        Submit Complaint/Feedback
+                        Submit Complaint
                     </button>
                     <button type="reset" class="btn btn-reset">
                         CLEAR
